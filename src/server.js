@@ -70,7 +70,7 @@ app.use(morgan('short'))
    * 
    * Listen only when database connection is sucessfull
    */
-  app.listen(process.ev.PORT, function() {
+  app.listen(process.env.PORT, function() {
     console.log('Express server listening on port 3000');
   });
-});
+/*});
