@@ -5,7 +5,7 @@ const app = express()
 //const models = require('./models/index');
 
 
-process.env.ENABLE _METRICS
+
 
 
 // Decode json and x-www-form-urlencoded
@@ -70,7 +70,7 @@ app.use(morgan('short'))
    * 
    * Listen only when database connection is sucessfull
    */
-  app.listen(3000, function() {
+  app.listen(process.ev.PORT, function() {
     console.log('Express server listening on port 3000');
   });
 });
